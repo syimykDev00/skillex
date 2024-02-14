@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #f8f5f5;
+    font-family:  Manrope, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+#header {
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+}
+
+.header-navbar a {
+    color: #000000;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.btn-one {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    margin-right: 40px;
+}
+
+.btn-two {
+    color: white;
+    background: #0B0A36;
+    padding: 10px 35px;
+    border-radius: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#hero {
+    padding: 100px 0;
+}
+
+#instructors {
+    padding: 100px 0;
+}
+
+.instructors h1 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    line-height: 49px;
+}
+
+.instructors-navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructors-navbar a {
+    color: #000000;
+    transition: .4s;
+    cursor: pointer;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.instructors-navbar a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.instructors-general {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.instructors-block h2 {
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.instructors-block h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.demand-title {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.demand-title h1 {
+    width: 341px;
+    color: #080808;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.demand-title p {
+    color: black;
+    width: 551px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.demand-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.demand-group-two-general {
+    display: flex;
+    align-items: start;
+}
+
+.demand-group-two {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: flex-end;*/
+}
+
+.demand-group-one {
+    padding-top: 85px;
+}
+
+.demand-group-three {
+    padding-left: 50px;
+}
+
+.demand-circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #906767;
+}
+
+.demand-line {
+    width: 1px;
+    height: 45px;
+    background: #000000;
+    margin: 25px 0;
+}
+
+.demand-text-one {
+    padding-bottom: 60px;
+}
+
+.demand-text-one h2 {
+    font-size: 27px;
+    color: #000000;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.demand-text-one h6 {
+    color: black;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.demand-group-four {
+    position: relative;
+}
+
+.demand-block {
+    width: 682px;
+    height: 144px;
+    padding-left: 70px;
+    position: absolute;
+    right: 45px;
+    bottom: 390px;
+    z-index: 4;
+    background: #32C174;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demand-block-title {
+    display: flex;
+    align-items: center;
+}
+
+.demand-block-title h3 {
+    font-size: 64px;
+    color: black;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.demand-block-title h4 {
+    font-size: 24px;
+    width: 158px;
+    color: black;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.demand-block-line {
+    width: 1px;
+    height: 60px;
+    background: black;
+    margin: 0 50px 0 30px;
+}
