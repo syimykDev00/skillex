@@ -25,6 +25,11 @@ button {
 }
 
 #header {
+    background: #f8f5f5;
+    box-shadow: 0 0 0 #f8f5f5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     padding: 20px 0;
 }
 
@@ -38,7 +43,6 @@ button {
     color: #000000;
     font-size: 36px;
     font-weight: 400;
-    line-height: 49px;
 }
 
 .header-navbar a {
@@ -47,6 +51,13 @@ button {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
+    transition: .4s;
+}
+
+.header-navbar a:hover {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .btn-one {
@@ -67,8 +78,141 @@ button {
     line-height: 22px;
 }
 
+.btn-two:hover {
+    color: white;
+    background: #32C174;
+}
+
 #hero {
     padding: 100px 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.hero-group-two {
+    display: flex;
+    align-items: start;
+}
+
+.hero-image-two {
+    padding-left: 30px;
+}
+
+.hero-group-one h1 {
+    padding-bottom: 148px;
+    width: 207px;
+    color: black;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 87px;
+}
+
+.hero-image-one {
+    position: relative;
+}
+
+.hero-img-one-title {
+    display: flex;
+    position: absolute;
+    bottom: 55px;
+    left: 85px;
+    align-items: start;
+}
+
+.hero-img-one-title h2 {
+    font-size: 48px;
+    padding-right: 70px;
+    color: white;
+    width: 161px;
+    font-weight: 400;
+    line-height: 66px;
+}
+
+.hero-img-one-title div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.hero-image-two {
+    position: relative;
+}
+
+.hero-image-two-text {
+    position: absolute;
+    bottom: 60px;
+    width: 179px;
+    height: 135px;
+    background: #0B0A36;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image-two-text h3 {
+    margin-bottom: 48px;
+    font-size: 48px;
+    color: white;
+    rotate: 90deg;
+    font-weight: 400;
+}
+
+.hero-img-one-title div h5 {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 5px;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.hero-img-one-title div h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.hero-group-one {
+    padding-top: 25px;
+    position: relative;
+}
+
+.hero-input {
+    position: absolute;
+    left: 5px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.hero-input input {
+    width: 272px;
+    height: 136px;
+    padding-left: 100px;
+    background: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+.hero-input button {
+    border-radius: 4px;
+    background: #32C174;
+    padding: 39px 39px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.hero-input button:hover {
+    color: white;
+    background: #0B0A36;
 }
 
 #instructors {
@@ -254,3 +398,185 @@ button {
     background: black;
     margin: 0 50px 0 30px;
 }
+
+#customer {
+    padding: 100px 0;
+}
+
+.customer h1 {
+    color: black;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.customer-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.customer-block {
+    width: 272px;
+    height: 220px;
+    padding: 20px 0 0 30px;
+    border-radius: 23px;
+    background: white;
+}
+
+.customer-block h6 {
+    color: black;
+    width: 212px;
+    padding-bottom: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.customer-title {
+    display: flex;
+    align-items: center;
+}
+
+.customer-title div {
+    padding-left: 11px;
+}
+
+.customer-title div h3 {
+    padding-bottom: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.customer-title div h4 {
+    color: #32C174;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#footer {
+    padding: 0 0 40px 0;
+}
+
+.footer-general h1 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.footer-navbar a {
+    color: black;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .4s;
+    line-height: 27px;
+}
+
+.footer-navbar a:hover {
+    font-weight: 600;
+    color: black;
+}
+
+.footer-navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.footer-navbar-group {
+    display: flex;
+    align-items: start;
+}
+
+.footer-general {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-group h2 {
+    font-size: 24px;
+    color: black;
+    padding-bottom: 40px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.footer-input {
+    display: flex;
+    align-items: center;
+}
+
+.footer-input input {
+    color: black;
+    /*text-align: center;*/
+    border: none;
+    padding-left: 80px;
+    outline: none;
+    background: white;
+    width: 200px;
+    border-radius: 4px;
+    height: 76px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-input button {
+    border-radius: 4px;
+    background: #32C174;
+    color: black;
+    padding: 13px 20px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+}
+
+.footer-input button:hover {
+    background: #0B0A36;
+    color: white;
+}
+
+.footer-line {
+    width: 100%;
+    height: 2px;
+    background: #AAAAAA;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    margin-left: 35px;
+    color: black;
+    font-size: 25px;
+}
+
+.customer-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-arrows ion-icon {
+    color: black;
+    font-size: 30px;
+    padding: 0 15px;
+}
+
